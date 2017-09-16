@@ -1,9 +1,4 @@
 /* NAVBAR CSS START */
-
-
-
-
-
 .navbar {
     height: 100px;
     width: 100%;
@@ -11,6 +6,7 @@
     position: fixed;
     /* background-color: #e61e1e; */
     z-index: 999;
+    top: 0s;
 }
 
 .active {

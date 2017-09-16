@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 
-# gem 'sqlite3'
+gem 'sqlite3'
 
 
 # Use SCSS for stylesheets
@@ -23,6 +23,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+
+
+gem 'devise'
+
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -35,14 +40,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development do
-  gem 'sqlite3'
-end
+# group :development do
+#   gem 'sqlite3'
+# end
 
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
+# group :production do
+#   gem 'pg'
+#   gem 'rails_12factor'
+# end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
