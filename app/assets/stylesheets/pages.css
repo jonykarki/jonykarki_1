@@ -4,9 +4,12 @@
     width: 100%;
     /* background: transparent; */
     position: fixed;
-    /* background-color: #e61e1e; */
     z-index: 999;
-    top: 0s;
+    top: 0;
+}
+
+.black-nav{
+    background-color: black;
 }
 
 .active {
@@ -92,14 +95,14 @@
 }
 
 #home-title {
-    font-size: 70px;
+    font-size: 49px;
     font-weight: 800;
     letter-spacing: 4px;
 }
 
 #home-sub {
     opacity: 0.8;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     letter-spacing: 4px;
 }

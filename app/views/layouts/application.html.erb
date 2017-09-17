@@ -12,7 +12,7 @@
 <body>
   
   <!--  Navbar Start -->
-  <div class="navbar">
+  <div class="navbar <%= "black-nav" if !current_page?(root_url) %>">
     <div class="company-title">
       <div class="home-top">JONY KARKI</div>
     </div>
@@ -28,7 +28,7 @@
       <div class="navbar-item">Blog</div>
       <div class="navbar-item">Resume</div>
       <!--<div class="navbar-item">About</div>-->
-      <div class="navbar-item active">Home</div>
+      <%= link_to "Home", root_path, class:"navbar-item" %>
     </div>
   </div>
   <!--  Navbar End  -->
