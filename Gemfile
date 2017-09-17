@@ -25,7 +25,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 
-gem 'devise'
+# gem 'devise'
 
 
 gem 'simple_form'
@@ -43,14 +43,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# group :development do
-#   gem 'sqlite3'
-# end
+group :development do
+  gem 'sqlite3'
+end
 
-# group :production do
-#   gem 'pg'
-#   gem 'rails_12factor'
-# end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
