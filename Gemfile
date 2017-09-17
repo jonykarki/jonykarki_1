@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 
-gem 'sqlite3'
+# gem 'sqlite3'
 
 
 # Use SCSS for stylesheets
@@ -25,7 +25,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 
-# gem 'devise'
+gem 'devise'
 
 
 gem 'simple_form'
@@ -42,6 +42,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
 
 group :development do
   gem 'sqlite3'
