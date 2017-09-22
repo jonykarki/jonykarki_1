@@ -1,5 +1,4 @@
 /* NAVBAR CSS START */
-
 .navbar {
     height: 100px;
     width: 100%;
@@ -58,9 +57,8 @@
     font-weight: 800;
     left: 2%;
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-bottom: white solid;
-    border-right: white solid;
 }
 
 /* NAVBAR CSS END */
@@ -71,17 +69,19 @@
 .home-page {
     height: 100vh;
     top: 0;
-    background-image: url(https://images.unsplash.com/photo-1431440869543-efaf3388c585);
+    background-image: url(https://images.unsplash.com/photo-1496948278962-4cce3c9d890c);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
-#home-overlay {
+.overlay {
     height: 100%;
     background-color: black;
     opacity: 0.8;
+    z-index: -50;
 }
 
 .home-des {
@@ -127,3 +127,47 @@
 }
 
 /* Home CSS End */
+
+/* About section CSS */
+
+#about-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    /* letter-spacing: 3px; */
+    font-weight: 600;
+}
+
+#about-desc {
+    font-size: 25px;
+}
+
+.about-section {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* About Section CSS end */
+
+/* Resume Section CSS */
+
+.resume-section {
+    background: url(https://images.unsplash.com/photo-1467781754976-5174e1ca3418);
+    height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res-text-container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+/* Resume Section CSS end */

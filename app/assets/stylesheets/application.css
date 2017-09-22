@@ -16,13 +16,12 @@
 
 
 /* CSS FOR WHOLE PAGE */
-
 html, body {
     margin: 0;
     padding: 0;
     background-color: #ededed;
 	-webkit-font-smoothing: antialiased;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     height: 100%;
 }
 
@@ -30,56 +29,19 @@ a:link {
     text-decoration: none;
 }
 
-.container {
+.endbar {
     position: relative;
-    width: 960px;
-    margin: 0 auto;
-    margin-top: 12%;
+    height: 200px;
+    background-color: #213333;
 }
 
-.container-box {
-    position: relative;
-    width: 960px;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-    margin: 0 auto;
-    padding: 20px 25px;
-    margin-top: 5%;
-}
-
-.container-box-blog {
-    position: relative;
-    width: 960px;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-    margin: 0 auto;
-    padding: 20px 25px;
-    margin-top: 2%;
-}
-
-.btn {
-    text-transform: uppercase;
-    position: relative;
-    left: 50%;
-    margin-left: calc(-250px/2);
-    background-color: #9e0505;
-    padding: 25px;
+.endbar-text {
     color: white;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
 }
-
-.btn:hover {
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -moz-transition: 0.5s;
-    background-color: #bb0909;
-}
-
 
 /* Form CSS Start */
 .form {
@@ -124,6 +86,3 @@ input[type=submit]:hover {
     padding: 20px;
 }
 /* FORM CSS END */
-
-
-
