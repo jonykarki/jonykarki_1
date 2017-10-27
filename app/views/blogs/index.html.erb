@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>All Blogs</h1>
+    
+    <% @blogs.each do |blog| %>
+        <p><%= link_to <% blog.title %>, blogs_path %></p>
+        <p><%= blog.body %></p>
+    <% end %>
+</div>
